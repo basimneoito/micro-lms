@@ -1,0 +1,13 @@
+global using System.Data;
+global using System.Threading.Tasks;
+global using Microsoft.Extensions.Configuration;
+global using Authorization.Services;
+global using Microsoft.Data.SqlClient;
+global using Authorization.Entities;
+global using Serilog;
+global using Authorization.Interfaces;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Dapper;
+global using Microsoft.IdentityModel.Tokens;
